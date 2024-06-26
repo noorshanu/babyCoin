@@ -5,14 +5,7 @@ function ChooseHero() {
     <section className='bg-[#0243b9] pt-[5%] pb-[8%] overflow-x-hidden ' id='col'>
         <div className=' container-wrapper'>
 
-            <div className=' relative flex flex-col sm:flex-row justify-evenly items-center gap-8 py-[6%]'>
-                <img src="images/star.png" alt="" className=' h-auto sm:h-[80px]' />
-
-               <h1 className=' text-xl sm:text-6xl font-bold text-white font-dream'>Tokenomics</h1>
-
-                <img src="images/star.png" alt="" className='h-auto sm:h-[80px]' />
-
-            </div>
+       
 
 
 
@@ -32,7 +25,7 @@ function ChooseHero() {
                   SUPPLY
                </h1>
                <h2 className='font-dream text-3xl font-bold py-1 text-center'>
-                1B TOTAL
+               100 Million
                </h2>
                 </div>
                 <div>

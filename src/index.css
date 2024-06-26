@@ -273,15 +273,16 @@ button {
 
 .indicator-container {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+ align-items: center;
+ justify-content: center;
+ 
 }
 
 .indicator {
-  width: 10px;
+  width: 30px;
   height: 10px;
   background-color: gray;
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 0 5px;
   transition: background-color 0.3s ease;
 }

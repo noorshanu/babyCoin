@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaArrowRightLong } from "react-icons/fa6";
 
 
 const Slider = () => {
@@ -12,15 +13,18 @@ const Slider = () => {
     },
     {
       title: 'Step 2',
-      content: 'This is the content for step 2.'
+      pretitle:'SEND YOUR SOLANA TO A WALLET',
+      content: 'CREATE AN ACCOUNT WITH PHANTOM, BACKPACK OR ANY WALLET OF YOUR CHOICE'
     },
     {
       title: 'Step 3',
-      content: 'This is the content for step 3.'
+      pretitle:'TRANSFER SOLANA',
+      content: 'TRANSFER YOUR SOLANA TO YOUR WALLET.'
     },
     {
       title: 'Step 4',
-      content: 'This is the content for step 4.'
+      pretitle:'BUY $BABY',
+      content: 'CONNECT YOUR WALLET TO A DECENTRALIZED EXCHANGE LIKE JUPITER OR RAYDIUM'
     }
   ];
 
@@ -29,14 +33,14 @@ const Slider = () => {
   };
 
   return (
-    <div className="slider ">
+    <div className="slider h-[320px] ">
       <div className="slider-content">
         <div className="slide" key={currentStep}>
           <h2 className=' font-bold font-dream text-2xl py-2'>{steps[currentStep].title}</h2>
           <h2 className=' font-bold font-dream text-3xl py-2'>{steps[currentStep].pretitle}</h2>
           <p>{steps[currentStep].content}</p>
         </div>
-        <button onClick={handleNext}>Next</button>
+        <button onClick={handleNext} className=' font-bold text-2xl font-dream flex items-center gap-2'> <FaArrowRightLong /> Next</button>
       </div>
       <div className="indicator-container">
         {steps.map((step, index) => (
