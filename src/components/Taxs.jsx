@@ -29,7 +29,7 @@ function Taxs() {
         </div>
 
 <p>
-eam allocation?  None. This is a fair launch and team has to buy in as well.
+Team allocation?  None. This is a fair launch and team has to buy in as well.
 </p>
 
     </div>
