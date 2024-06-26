@@ -6,21 +6,44 @@ function ChooseHero() {
         <div className=' container-wrapper'>
 
             <div className=' relative flex flex-col sm:flex-row justify-evenly items-center gap-8 py-[6%]'>
-                <img src="images/line2.png" alt="" className=' h-auto sm:h-[10px]' />
+                <img src="images/star.png" alt="" className=' h-auto sm:h-[80px]' />
 
-               <h1 className=' text-xl sm:text-6xl font-bold text-white'>Features</h1>
+               <h1 className=' text-xl sm:text-6xl font-bold text-white font-dream'>Tokenomics</h1>
 
-                <img src="images/line1.png" alt="" className='h-auto sm:h-[10px]' />
+                <img src="images/star.png" alt="" className='h-auto sm:h-[80px]' />
 
             </div>
 
 
 
-            <div className=' flex flex-col sm:flex-row justify-evenly gap-4'>
-                <img src="images/img1.jpeg" alt="" className=' sm:w-auto w-[200px] h-[200px] sm:h-[370px] mx-auto box-s rounded-3xl border-4 border-black' />
-                <img src="images/img3.jpeg" alt="" className=' sm:w-auto w-[200px] h-[200px] sm:h-[370px] mx-auto box-s rounded-3xl border-4 border-black '  />
-                <img src="images/img4.jpeg" alt=""  className=' sm:w-auto w-[200px] h-[200px] sm:h-[370px] mx-auto box-s rounded-3xl border-4 border-black' />
-
+            <div className=' flex flex-col sm:flex-row justify-evenly gap-4 bg-white border-4 border-black rounded-3xl box-s2 py-4 px-4'>
+               <div>
+               <img src="images/img7.jpeg" alt="" className=' sm:w-auto w-[200px] h-[200px] sm:h-[250px] mx-auto box-s rounded-3xl border-4 border-black' />
+               <h1 className=' font-dream text-6xl font-bold py-1 text-center'>
+                TAX
+               </h1>
+               <h2 className='font-dream text-3xl font-bold py-1 text-center'>
+               0% Tax
+               </h2>
+               </div>
+                <div>
+                <img src="images/img6.jpeg" alt="" className=' sm:w-auto w-[200px] h-[200px] sm:h-[250px] mx-auto box-s rounded-3xl border-4 border-black '  />
+                <h1 className='font-dream text-6xl font-bold py-1 text-center'>
+                  SUPPLY
+               </h1>
+               <h2 className='font-dream text-3xl font-bold py-1 text-center'>
+                1B TOTAL
+               </h2>
+                </div>
+                <div>
+                <img src="images/img8.jpeg" alt=""  className=' sm:w-auto w-[200px] h-[200px] sm:h-[250px] mx-auto box-s rounded-3xl border-4 border-black' />
+                <h1 className=' font-dream text-6xl font-bold py-1 text-center'>
+                LP 
+               </h1>
+               <h2 className='font-dream text-3xl font-bold py-1 text-center'>
+                100% BURN
+               </h2>
+                </div>
             </div>
 
         </div>
