@@ -1,29 +1,28 @@
 import AboutUs from "./components/AboutUs";
 import BorderSec from "./components/BorderSec";
 import ChooseHero from "./components/ChooseHero";
+import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HowToBuy from "./components/HowToBuy";
 import Navbar from "./components/Navbar";
-import Roadmap from "./components/Roadmap";
+
 
 function App() {
   return (
     <>
-    <div className=" relative">
+      <div className=" relative">
+        <Navbar />
+        <Hero />
+        <BorderSec />
+        <AboutUs />
+        <ChooseHero />
+        <HowToBuy />
+        <div className="main-bg2">
+          <Faq />
 
-   
-      <Navbar />
-      <Hero />
-      <BorderSec />
-      <AboutUs />
-      <ChooseHero />
-      <HowToBuy/>
-      {/* <div className=" -mt-[6.2%]">
-        <img src="images/roadmap-head.png" alt="" className=" w-full mx-auto" />
-      </div> */}
-      {/* <Roadmap/> */}
-      <Footer/>
+          <Footer />
+        </div>
       </div>
     </>
   );
