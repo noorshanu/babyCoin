@@ -14,8 +14,8 @@ function Footer() {
               <img src="images/foot.png" alt="" className=" h-[30px] sm:h-[110px] my-2 sm:my-8 sm:mx-0 mx-auto"  />
 
               <div className=" flex items-center gap-4 text-white mb-6 ml-5">
-              {/* <a
-                  href="http://twitter.com/bonked420"
+              <a
+                  href="https://x.com/SOLxBABY88"
                   className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <BsTwitterX />
@@ -24,11 +24,11 @@ function Footer() {
            
 
                 <a
-                  href="https://t.me/bonked420" target="_blank"
+                  href="https://t.me/+AKKwhVMVXMFlYzUx" target="_blank"
                   className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <FaTelegram />
-                </a> */}
+                </a>
               </div>
 
             <p>Copyright 2024 BabyCoin  All Rights Reserved.</p>
@@ -56,7 +56,7 @@ function Footer() {
                   href="#col"
                   className="text-black font-bold text-lg block "
                 >
-                 Features
+                Tokenomics
                 </a>
              
                 <a
