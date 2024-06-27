@@ -14,7 +14,7 @@ function AboutUs() {
         className=" absolute  top-0 -right-10"
       />
       <div className=" container-wrapper pt-[5%]">
-        <div className=" flex items-center gap-2 px-2 relative z-20 py-1 bg-white border-t-2 border-l-2 border-r-2 border-black rounded-2xl w-full max-w-full sm:max-w-lg ml-6">
+        <div className=" flex items-center justify-center gap-2  relative z-20 py-1 bg-white border-t-2 border-l-2 border-r-2 border-black rounded-2xl w-full max-w-full sm:max-w-xl px-4 mx-auto">
           <CopyAddress />{" "}
           <button className="copy">
             <span
