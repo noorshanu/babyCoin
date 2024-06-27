@@ -1,4 +1,5 @@
 import React from 'react'
+import Accordion from './Accordion'
 
 function Faq() {
   return (
@@ -17,6 +18,8 @@ function Faq() {
               </div>
 
             </div>
+
+            <Accordion/>
 
         </div>
 
