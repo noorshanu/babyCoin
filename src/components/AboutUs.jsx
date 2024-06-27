@@ -1,4 +1,3 @@
-import React from "react";
 import CopyAddress from "./CopyAddress";
 
 function AboutUs() {
@@ -25,7 +24,7 @@ function AboutUs() {
             <span>
               <svg
                 xmlSpace="preserve"
-               id='tgt'
+                id="tgt"
                 viewBox="0 0 6.35 6.35"
                 y="0"
                 x="0"
@@ -45,7 +44,7 @@ function AboutUs() {
               </svg>
               <svg
                 xmlSpace="preserve"
-               id="tgt"
+                id="tgt"
                 viewBox="0 0 24 24"
                 y="0"
                 x="0"
@@ -68,10 +67,6 @@ function AboutUs() {
           </button>
         </div>
         <div className="relative bg-white border-4 box-s2 p-4 border-black rounded-3xl">
-      
-
-       
-
           <div className=" ">
             <img
               src="images/about.png"
@@ -82,15 +77,18 @@ function AboutUs() {
               The Heartbeat of Solana's Meme Community
             </h1>
             <p className=" max-w-4xl mx-auto text-center mt-[2%] mb-[3%] text-xs sm:text-xl font-bold">
-             It is more than just a digital currency; it's a revolution in the
+              It is more than just a digital currency; it's a revolution in the
               Solana ecosystem. Aimed at becoming the premier community coin of
               Web3, BABYCOIN is setting new standards for integration and
               utility across
             </p>
 
-            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4\2 px-12" data-aos="fade-up"
-     data-aos-duration="1500">
-              <div className="" >
+            <div
+              className=" flex flex-col sm:flex-row items-center justify-center gap-4\2 px-12"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
+              <div className="">
                 <img
                   src="images/fri1.png"
                   alt=""
@@ -103,19 +101,20 @@ function AboutUs() {
                   alt=""
                   className="  h-auto sm:h-[250px] floating"
                 />
-          
               </div>
               <div className=" ">
-              <img
+                <img
                   src="images/fri3.png"
                   alt=""
                   className="  h-auto sm:h-[250px] floating"
                 />
               </div>
-       
             </div>
-            <div className=" flex flex-col sm:flex-row items-center justify-center gap-2 px-12 mt-6" data-aos="fade-up"
-     data-aos-duration="1500">
+            <div
+              className=" flex flex-col sm:flex-row items-center justify-center gap-2 px-12 mt-6"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div>
                 <img
                   src="images/fri4.png"
@@ -129,13 +128,12 @@ function AboutUs() {
                   alt=""
                   className="  h-auto sm:h-[250px] floating"
                 />
-          
               </div>
               <img
-                  src="images/logo2.png"
-                  alt=""
-                  className="  h-auto sm:h-[250px] floating "
-                />
+                src="images/logo2.png"
+                alt=""
+                className="  h-auto sm:h-[250px] floating "
+              />
             </div>
           </div>
         </div>
