@@ -82,9 +82,52 @@ function AboutUs() {
               Web3, BABYCOIN is setting new standards for integration and
               utility across
             </p>
+            <div className=" grid sm:hidden grid-cols-2 gap-3 items-center justify-center">
+            <div className="">
+                <img
+                  src="images/fri1.png"
+                  alt=""
+                  className=" h-auto sm:h-[250px]  floating"
+                />
+              </div>
+              <div className="">
+                <img
+                  src="images/fri2.png"
+                  alt=""
+                  className="  h-auto sm:h-[250px] floating"
+                />
+              </div>
+              <div className=" ">
+                <img
+                  src="images/fri3.png"
+                  alt=""
+                  className="  h-auto sm:h-[250px] floating"
+                />
+              </div>
+
+              <div>
+                <img
+                  src="images/fri4.png"
+                  alt=""
+                  className=" h-auto sm:h-[250px] floating"
+                />
+              </div>
+              <div className=" ">
+                <img
+                  src="images/fri5.png"
+                  alt=""
+                  className="  h-auto sm:h-[250px] floating"
+                />
+              </div>
+              <img
+                src="images/logo2.png"
+                alt=""
+                className="  h-auto sm:h-[250px] floating "
+              />
+            </div>
 
             <div
-              className=" flex flex-col sm:flex-row items-center justify-center gap-4\2 px-12"
+              className=" hidden sm:flex flex-col sm:flex-row items-center justify-center gap-4\2 px-12"
               data-aos="fade-up"
               data-aos-duration="1500"
             >
@@ -111,7 +154,7 @@ function AboutUs() {
               </div>
             </div>
             <div
-              className=" flex flex-col sm:flex-row items-center justify-center gap-2 px-12 mt-6"
+              className=" hidden sm:flex flex-col sm:flex-row items-center justify-center gap-2 px-12 mt-6"
               data-aos="fade-up"
               data-aos-duration="1500"
             >
