@@ -40,30 +40,23 @@ const Accordion = () => {
     <div className="mx-auto mt-10 p-4 rounded-lg flex flex-col sm:flex-row justify-center items-center gap-3">
       <div className="w-full sm:w-1/2">
         <AccordionItem
-          title="What is the point of $baby?"
+          title="WHAT IS THE TREASURY"
           content="The treasury is basically our 'bank' we will use this for marketing costs, listing on CEX's and burning / giving away to holders."
         />
         <AccordionItem
           title="Is $baby a good investment?"
-          content="Investing in $baby depends on various factors including market trends, project developments, and individual risk tolerance."
+          content=" its a fictional character and memecoin with no utility. Please invest at your own risk, and as always. Do you own research."
         />
-        <AccordionItem
-          title="What is the future of $baby?"
-          content="$baby aims to achieve long-term growth through strategic partnerships, community engagement, and continuous development."
-        />
+    
       </div>
       <div className="sm:w-1/2 w-full">
         <AccordionItem
-          title="What is the point of $baby?"
-          content="The treasury is basically our 'bank' we will use this for marketing costs, listing on CEX's and burning / giving away to holders."
+          title="IS LIQUIDITY POOL LOCKED?"
+          content="YES, LP locked after seeding on Raydium."
         />
-        <AccordionItem
-          title="Is $baby a good investment?"
-          content="Investing in $baby depends on various factors including market trends, project developments, and individual risk tolerance."
-        />
-        <AccordionItem
+         <AccordionItem
           title="What is the future of $baby?"
-          content="$baby aims to achieve long-term growth through strategic partnerships, community engagement, and continuous development."
+          content="Season 1 of Baby's adventures will be released every week. With multiple fun and new things being worked "
         />
       </div>
     </div>
