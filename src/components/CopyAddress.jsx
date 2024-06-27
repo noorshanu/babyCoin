@@ -3,7 +3,7 @@ import { Tooltip } from 'react-tooltip'
 
 const CopyAddress = () => {
   const [tooltipText, setTooltipText] = useState('Copy this');
-  const address = '5NHd3MsP6dXi9r1saPkeB2DoZyXLvPiqv4n9J54Cpump';
+  const address = 'HTRkZF9SzcZQpVrDueRebQeApXiYrqdHciYtRah8pVcb';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(address).then(() => {
