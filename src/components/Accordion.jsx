@@ -29,16 +29,16 @@ const Accordion = () => {
   return (
     <div className="max-w-lg mx-auto mt-10 bg-green-900 p-4 rounded-lg">
       <AccordionItem
-        title="What is the point of $DANNY?"
+        title="What is the point of $baby?"
         content="The treasury is basically our 'bank' we will use this for marketing costs, listing on CEX's and burning / giving away to holders."
       />
       <AccordionItem
-        title="Is $DANNY a good investment?"
-        content="Investing in $DANNY depends on various factors including market trends, project developments, and individual risk tolerance."
+        title="Is $baby a good investment?"
+        content="Investing in $baby depends on various factors including market trends, project developments, and individual risk tolerance."
       />
       <AccordionItem
-        title="What is the future of $DANNY?"
-        content="$DANNY aims to achieve long-term growth through strategic partnerships, community engagement, and continuous development."
+        title="What is the future of $baby?"
+        content="$baby aims to achieve long-term growth through strategic partnerships, community engagement, and continuous development."
       />
     </div>
   );
