@@ -31,7 +31,7 @@ function Footer() {
                 </a> */}
               </div>
 
-            <p>Copyright 2024 Bonked420  All Rights Reserved.</p>
+            <p>Copyright 2024 BabyCoin  All Rights Reserved.</p>
             </div>
 
             <div className=" mt-[5%]">
