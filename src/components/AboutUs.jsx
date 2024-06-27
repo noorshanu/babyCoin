@@ -88,7 +88,7 @@ function AboutUs() {
               utility across
             </p>
 
-            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12" data-aos="fade-up"
+            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4\2 px-12" data-aos="fade-up"
      data-aos-duration="1500">
               <div className="" >
                 <img
@@ -101,7 +101,7 @@ function AboutUs() {
                 <img
                   src="images/fri2.png"
                   alt=""
-                  className="  h-auto sm:h-[250px] "
+                  className="  h-auto sm:h-[250px] floating"
                 />
           
               </div>
@@ -114,13 +114,13 @@ function AboutUs() {
               </div>
        
             </div>
-            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12 mt-6" data-aos="fade-up"
+            <div className=" flex flex-col sm:flex-row items-center justify-center gap-2 px-12 mt-6" data-aos="fade-up"
      data-aos-duration="1500">
               <div>
                 <img
                   src="images/fri4.png"
                   alt=""
-                  className=" h-auto sm:h-[250px] "
+                  className=" h-auto sm:h-[250px] floating"
                 />
               </div>
               <div className=" ">
@@ -134,7 +134,7 @@ function AboutUs() {
               <img
                   src="images/logo2.png"
                   alt=""
-                  className="  h-auto sm:h-[250px] "
+                  className="  h-auto sm:h-[250px] floating "
                 />
             </div>
           </div>
