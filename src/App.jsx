@@ -28,7 +28,7 @@ function App() {
         <Taxs />
         <ChooseHero />
         <HowToBuy />
-        <div className="main-bg2">
+        <div className="main-bg2 py-4">
           <Faq />
 
           <Footer />
