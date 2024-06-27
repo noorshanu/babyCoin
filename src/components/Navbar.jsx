@@ -23,16 +23,16 @@ function Navbar() {
         <div className="hidden md:flex flex-grow justify-center">
           <a href="/" className="text-black font-bold text-lg px-3 py-2">Home</a>
           <a href="#about" className="text-black font-bold text-lg px-3 py-2">About</a>
-          <a href="#col" className="text-black font-bold text-lg px-3 py-2">Features</a>
+          <a href="#col" className="text-black font-bold text-lg px-3 py-2">Tokenomics</a>
          
           <a href="#contact" className="text-black font-bold text-lg px-3 py-2">Contact Us</a>
         </div>
 
         {/* Wallet Connect button */}
         <div className="md:flex items-center">
-        <div className=" flex items-center gap-4 text-white mb-6 ml-5">
-        {/* <a
-                  href="http://twitter.com/bonked420"
+        <div className=" flex items-center gap-4 text-white  ml-5">
+        <a
+                  href="http://twitter.com/" rel="noreferrer" target="_blank"
                   className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <BsTwitterX />
@@ -41,11 +41,11 @@ function Navbar() {
            
 
                 <a
-                  href="https://t.me/bonked420" target="_blank"
+                  href="https://t.me/" target="_blank"  rel="noreferrer"
                   className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <FaTelegram />
-                </a> */}
+                </a>
               </div>
         </div>
 
@@ -95,7 +95,7 @@ function Navbar() {
             
             <div className=" flex items-center gap-4 text-white mb-6 ml-5">
             <a
-                  href="https://x.com/bonkk_3"
+                  href="https://x.com/"
                   className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <BsTwitterX />
@@ -104,7 +104,7 @@ function Navbar() {
            
 
                 <a
-                  href="https://t.me/bonkeds" target="_blank"
+                  href="https://t.me/" target="_blank" rel="noreferrer"
                   className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <FaTelegram />
