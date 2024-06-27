@@ -11,7 +11,7 @@ import Taxs from "./components/Taxs";
 function App() {
   return (
     <>
-      <div className=" relative">
+      <div className=" relative overflow-x-hidden">
         <Navbar />
         <Hero />
         <BorderSec />

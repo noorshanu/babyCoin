@@ -90,14 +90,14 @@ function AboutUs() {
 
             <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12" data-aos="fade-up"
      data-aos-duration="1500">
-              <div className="box-s rounded-3xl border-4 border-black" >
+              <div className="" >
                 <img
                   src="images/fri1.png"
                   alt=""
                   className=" h-auto sm:h-[250px]  floating"
                 />
               </div>
-              <div className="box-s rounded-3xl border-4 border-black">
+              <div className="">
                 <img
                   src="images/fri2.png"
                   alt=""
@@ -105,7 +105,7 @@ function AboutUs() {
                 />
           
               </div>
-              <div className=" box-s rounded-3xl border-4 border-black">
+              <div className=" ">
               <img
                   src="images/fri3.png"
                   alt=""
@@ -120,10 +120,10 @@ function AboutUs() {
                 <img
                   src="images/fri4.png"
                   alt=""
-                  className=" h-auto sm:h-[250px] box-s rounded-3xl border-4 border-black"
+                  className=" h-auto sm:h-[250px] "
                 />
               </div>
-              <div className=" box-s rounded-3xl border-4 border-black">
+              <div className=" ">
                 <img
                   src="images/fri5.png"
                   alt=""
@@ -134,7 +134,7 @@ function AboutUs() {
               <img
                   src="images/logo2.png"
                   alt=""
-                  className="  h-auto sm:h-[250px] box-s rounded-3xl border-4 border-black"
+                  className="  h-auto sm:h-[250px] "
                 />
             </div>
           </div>

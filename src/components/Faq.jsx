@@ -8,6 +8,16 @@ function Faq() {
 
             <h1 className=' text-3xl sm:text-7xl font-dream font-bold text-center'>FAQ $BABY</h1>
 
+            <div className=' flex justify-around items-center flex-col sm:flex-row'>
+
+              <div className=' border-4 rounded-3xl box-s2 border-black p-4'>
+
+                
+
+              </div>
+
+            </div>
+
         </div>
 
     </div>
