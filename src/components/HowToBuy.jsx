@@ -6,7 +6,8 @@ function HowToBuy() {
     <section className="bg-[#0243b9] py-[2%]">
       <div className=" container-wrapper">
         <div className=" flex items-center justify-center gap-4">
-          <div className=" bg-white border-4 border-black box-s2 rounded-3xl py-8 px-4 w-1/2 h-full">
+          <div className=" bg-white border-4 border-black box-s2 rounded-3xl py-8 px-4 w-1/2 h-full" data-aos="fade-right"
+     data-aos-duration="1500">
             <h1 className="text-7xl font-bold font-dream py-1 text-center">
               {" "}
               How To BUY
@@ -16,13 +17,15 @@ function HowToBuy() {
             </h2>
           </div>
 
-          <div className="bg-white border-4 border-black box-s2 rounded-3xl p-2 h-full">
+          <div className="bg-white border-4 border-black box-s2 rounded-3xl p-2 h-full" data-aos="fade-left"
+     data-aos-duration="1500">
             <img src="images/logo2.png" alt="" className=" h-[220px]" />
           </div>
         </div>
 
         <div className=" flex items-center justify-center gap-4 mt-2">
-          <div className=" bg-white border-4 border-black box-s2 rounded-3xl py-8 px-4 flex flex-col justify-center items-center gap-4">
+          <div className=" bg-white border-4 border-black box-s2 rounded-3xl py-8 px-4 flex flex-col justify-center items-center gap-4" data-aos="fade-right"
+     data-aos-duration="1500">
             <img src="images/logo3.png" alt="" className="h-[220px] img-hov cursor-pointer" />
             <a
               href="/"
@@ -32,7 +35,8 @@ function HowToBuy() {
             </a>
           </div>
 
-          <div className="bg-white border-4 border-black box-s2 rounded-3xl p-4 w-1/2 ">
+          <div className="bg-white border-4 border-black box-s2 rounded-3xl p-4 w-1/2 " data-aos="fade-left"
+     data-aos-duration="1500">
             <Slider />
           </div>
         </div>

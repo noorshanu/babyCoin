@@ -5,12 +5,14 @@ function Taxs() {
   <section className='bg-[#0243b9] pt-[5%] pb-[8%] overflow-x-hidden '>
     <div className=' container-wrapper bg-white border-4 border-black rounded-3xl box-s2 py-4 px-4'>
         <div className='flex flex-col sm:flex-row justify-evenly gap-4 '>
-            <div>
+            <div data-aos="fade-right"
+     data-aos-duration="1500">
 
                 <img src="images/img5.jpeg" alt="" className=' rounded-full h-[300px] img-hov' />
 
             </div>
-            <div className=' flex justify-center flex-col gap-3'>
+            <div className=' flex justify-center flex-col gap-3' data-aos="fade-left"
+     data-aos-duration="1500">
                 <h2 className=' text-6xl font-dream font-bold text-center'>
                 $BABY Treasury
                 </h2>

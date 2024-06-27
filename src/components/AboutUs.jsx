@@ -88,8 +88,9 @@ function AboutUs() {
               utility across
             </p>
 
-            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12">
-              <div className="box-s rounded-3xl border-4 border-black">
+            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12" data-aos="fade-up"
+     data-aos-duration="1500">
+              <div className="box-s rounded-3xl border-4 border-black" >
                 <img
                   src="images/fri1.png"
                   alt=""
@@ -113,7 +114,8 @@ function AboutUs() {
               </div>
        
             </div>
-            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12 mt-6">
+            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12 mt-6" data-aos="fade-up"
+     data-aos-duration="1500">
               <div>
                 <img
                   src="images/fri4.png"
