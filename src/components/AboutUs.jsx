@@ -67,20 +67,12 @@ function AboutUs() {
             </span>
           </button>
         </div>
-        <div className="relative">
-          <img
-            src="images/about-bg.png"
-            alt=""
-            className="   hidden sm:block"
-          />
+        <div className="relative bg-white border-4 box-s2 p-4 border-black rounded-3xl">
+      
 
-          <img
-            src="images/mob.png"
-            alt=""
-            className=" block sm:hidden h-[750px]"
-          />
+       
 
-          <div className=" absolute left-0 right-0 top-8 sm:top-[8%]">
+          <div className=" ">
             <img
               src="images/about.png"
               alt=""
@@ -90,27 +82,58 @@ function AboutUs() {
               The Heartbeat of Solana's Meme Community
             </h1>
             <p className=" max-w-4xl mx-auto text-center mt-[2%] mb-[3%] text-xs sm:text-xl font-bold">
-              is more than just a digital currency; it's a revolution in the
+             It is more than just a digital currency; it's a revolution in the
               Solana ecosystem. Aimed at becoming the premier community coin of
-              Web3, Bonked 420 is setting new standards for integration and
+              Web3, BABYCOIN is setting new standards for integration and
               utility across
             </p>
 
             <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12">
+              <div className="box-s rounded-3xl border-4 border-black">
+                <img
+                  src="images/fri1.png"
+                  alt=""
+                  className=" h-auto sm:h-[250px]  floating"
+                />
+              </div>
+              <div className="box-s rounded-3xl border-4 border-black">
+                <img
+                  src="images/fri2.png"
+                  alt=""
+                  className="  h-auto sm:h-[250px] "
+                />
+          
+              </div>
+              <div className=" box-s rounded-3xl border-4 border-black">
+              <img
+                  src="images/fri3.png"
+                  alt=""
+                  className="  h-auto sm:h-[250px] floating"
+                />
+              </div>
+       
+            </div>
+            <div className=" flex flex-col sm:flex-row items-center justify-center gap-4 px-12 mt-6">
               <div>
                 <img
-                  src="images/img5.jpeg"
+                  src="images/fri4.png"
                   alt=""
                   className=" h-auto sm:h-[250px] box-s rounded-3xl border-4 border-black"
                 />
               </div>
-              <div>
+              <div className=" box-s rounded-3xl border-4 border-black">
                 <img
-                  src="images/img6.jpeg"
+                  src="images/fri5.png"
+                  alt=""
+                  className="  h-auto sm:h-[250px] floating"
+                />
+          
+              </div>
+              <img
+                  src="images/logo2.png"
                   alt=""
                   className="  h-auto sm:h-[250px] box-s rounded-3xl border-4 border-black"
                 />
-              </div>
             </div>
           </div>
         </div>

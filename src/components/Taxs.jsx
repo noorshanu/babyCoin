@@ -7,7 +7,7 @@ function Taxs() {
         <div className='flex flex-col sm:flex-row justify-evenly gap-4 '>
             <div>
 
-                <img src="images/img5.jpeg" alt="" className=' rounded-full h-[300px]' />
+                <img src="images/img5.jpeg" alt="" className=' rounded-full h-[300px] img-hov' />
 
             </div>
             <div className=' flex justify-center flex-col gap-3'>

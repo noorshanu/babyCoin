@@ -113,7 +113,21 @@ box-shadow: 10px 10px 7px 1px rgba(0,0,0,0.75);
     }
   }
 
+  .img-hov:hover{
+    animation: rotate 1s linear;
+}
 
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
   /* tooltip settings 👇 */
 

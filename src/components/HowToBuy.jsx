@@ -23,7 +23,7 @@ function HowToBuy() {
 
         <div className=" flex items-center justify-center gap-4 mt-2">
           <div className=" bg-white border-4 border-black box-s2 rounded-3xl py-8 px-4 flex flex-col justify-center items-center gap-4">
-            <img src="images/logo3.png" alt="" className="h-[220px]" />
+            <img src="images/logo3.png" alt="" className="h-[220px] img-hov cursor-pointer" />
             <a
               href="/"
               className=" bg-white border-4 box-s2 px-4 py-1 border-black rounded-full text-4xl font-bold font-dream"

@@ -17,13 +17,13 @@ function App() {
         <BorderSec />
         <AboutUs />
         <div className=" relative flex flex-col sm:flex-row justify-evenly items-center gap-8 py-[6%] bg-[#0243b9] ">
-          <img src="images/star.png" alt="" className=" h-auto sm:h-[80px]" />
+          <img src="images/star.png" alt="" className=" h-auto sm:h-[80px] anime2" />
 
           <h1 className=" text-xl sm:text-6xl font-bold text-white font-dream">
             Tokenomics
           </h1>
 
-          <img src="images/star.png" alt="" className="h-auto sm:h-[80px]" />
+          <img src="images/star.png" alt="" className="h-auto sm:h-[80px] anime2" />
         </div>
         <Taxs />
         <ChooseHero />
