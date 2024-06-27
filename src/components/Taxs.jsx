@@ -2,8 +2,12 @@ import React from 'react'
 
 function Taxs() {
   return (
-  <section className='bg-[#0243b9] pt-[5%] pb-[8%] overflow-x-hidden '>
-    <div className=' container-wrapper bg-white border-4 border-black rounded-3xl box-s2 py-4 px-4'>
+  <section className='bg-[#0243b9] pt-[10%] pb-[8%]  relative '>
+    <img src="images/mon.png" alt="" className=' absolute top-[-10%] left-auto right-[40%] z-10 floating ' data-aos="fade-up"
+     data-aos-duration="1500" />
+
+
+    <div className=' container-wrapper bg-white border-4 border-black rounded-3xl box-s2 py-4 px-4 relative z-20'>
         <div className='flex flex-col sm:flex-row justify-evenly gap-4 '>
             <div data-aos="fade-right"
      data-aos-duration="1500">
