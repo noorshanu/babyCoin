@@ -14,7 +14,7 @@ function ChooseHero() {
               alt=""
               className=" sm:w-auto w-[200px] h-[200px] sm:h-[250px] mx-auto box-s rounded-3xl border-4 border-black"
             />
-            <h1 className=" font-dream text-6xl font-bold py-1 text-center">
+            <h1 className=" font-dream text-4xl sm:text-6xl font-bold py-1 text-center">
               TAX
             </h1>
             <h2 className="font-dream text-3xl font-bold py-1 text-center">
@@ -27,7 +27,7 @@ function ChooseHero() {
               alt=""
               className=" sm:w-auto w-[200px] h-[200px] sm:h-[250px] mx-auto box-s rounded-3xl border-4 border-black "
             />
-            <h1 className="font-dream text-6xl font-bold py-1 text-center">
+            <h1 className="font-dream text-4xl sm:text-6xl font-bold py-1 text-center">
               SUPPLY
             </h1>
             <h2 className="font-dream text-3xl font-bold py-1 text-center">
@@ -40,7 +40,7 @@ function ChooseHero() {
               alt=""
               className=" sm:w-auto w-[200px] h-[200px] sm:h-[250px] mx-auto box-s rounded-3xl border-4 border-black"
             />
-            <h1 className=" font-dream text-6xl font-bold py-1 text-center">
+            <h1 className=" font-dream text-3xl sm:text-6xl font-bold py-1 text-center">
               LP
             </h1>
             <h2 className="font-dream text-3xl font-bold py-1 text-center">

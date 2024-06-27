@@ -33,7 +33,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="slider h-[320px] ">
+    <div className="slider h-auto sm:h-[320px] ">
       <div className="slider-content">
         <div className="slide" key={currentStep}>
           <h2 className=' font-bold font-dream text-2xl py-2'>{steps[currentStep].title}</h2>
