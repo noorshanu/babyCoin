@@ -15,7 +15,7 @@ function Hero() {
       <img src="images/hero4.png" alt="" className=" mx-auto h-auto sm:h-[350px]"
       />
       {/* <img src="images/hero-btn.png" alt="" className="  h-[30px] sm:h-[80px] " /> */}
-      <a href="/" className=" mx-auto font-dream box-s2  absolute left-0 right-0 top-[80%] sm:top-[50%] text-xl text-black bg-[#fcfac2] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff] w-[200px] text-center font-bold uppercase"> DexTools</a>
+      <a href="https://www.dextools.io/app/en/solana/pair-explorer/G1aWhtedtF79GGsfz9WYreUpmwmZhoBrMT6ZCpsdWadh?t=1719685030411" className=" mx-auto font-dream box-s2  absolute left-0 right-0 top-[80%] sm:top-[50%] text-xl text-black bg-[#fcfac2] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff] w-[200px] text-center font-bold uppercase"> DexTools</a>
     </section>
   );
 }
