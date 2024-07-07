@@ -25,7 +25,7 @@ function HowToBuy() {
             data-aos="fade-left"
             data-aos-duration="1500"
           >
-            <img src="images/logo2.png" alt="" className=" h-[180px] sm:h-[220px]" />
+            <img src="images/hero4.png" alt="" className=" h-[180px] sm:h-[220px]" />
           </div>
         </div>
 
